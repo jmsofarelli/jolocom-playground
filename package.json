@@ -1,0 +1,25 @@
+{
+  "name": "jolocom-playground",
+  "version": "1.0.0",
+  "description": "Simple Web Application aimed to play with Jolocom identities",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.26.0",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "jolocom-lib": "^2.2.3",
+    "lodash": "^4.17.11"
+  }
+}
